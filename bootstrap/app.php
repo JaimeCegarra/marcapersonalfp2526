@@ -11,6 +11,19 @@ return Application::configure(basePath: dirname(__DIR__))
         health: '/up',
     )
     ->withMiddleware(function (Middleware $middleware): void {
+<<<<<<< Updated upstream
+=======
+        $middleware->api(prepend: [
+            \Laravel\Sanctum\Http\Middleware\EnsureFrontendRequestsAreStateful::class,
+        ]);
+        $middleware-> validateCsrfTokens(except: [
+            'http://marcapersonalfp.test/api/records/*',
+        ]);
+        $middleware->alias([
+            'verified' => \App\Http\Middleware\EnsureEmailIsVerified::class,
+        ]);
+
+>>>>>>> Stashed changes
         //
     })
     ->withExceptions(function (Exceptions $exceptions): void {
