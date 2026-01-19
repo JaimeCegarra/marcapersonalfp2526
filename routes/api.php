@@ -12,6 +12,8 @@ Route::middleware(['auth:sanctum'])->get('/user', function (Request $request) {
     return $request->user();
 });
 
+// Rutas /api/v1
+
 Route::prefix('v1')->group(function () {
     Route::apiResource('ciclos', CicloController::class);
 
@@ -19,16 +21,6 @@ Route::prefix('v1')->group(function () {
     ->parameters([
         'familias_profesionales' => 'familiaProfesional'
     ]);
-});
-
-    Route::apiResource('familias_profesionales', FamiliaProfesionalController::class)
-    ->parameters([
-        'familias_profesionales' => 'familiaProfesional'
-    ]);
-    // emite un nuevo token
-    Route::post('tokens', [TokenController::class, 'store']);
-    // elimina el token del usuario autenticado
-    Route::delete('tokens', [TokenController::class, 'destroy'])->middleware('auth:sanctum');
 
 });
 

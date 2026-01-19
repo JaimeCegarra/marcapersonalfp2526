@@ -16,8 +16,7 @@ class FamiliaProfesionalController extends Controller
     {
         return FamiliaProfesionalResource::collection(
             FamiliaProfesional::orderBy($request->sort ?? 'id', $request->order ?? 'asc')
-                ->paginate($request->per_page)
-        );
+            ->paginate($request->per_page));
     }
 
     /**
@@ -25,11 +24,7 @@ class FamiliaProfesionalController extends Controller
      */
     public function store(Request $request)
     {
-        $familiaProfesional = json_decode($request->getContent(), true);
-
-        $familiaProfesional = FamiliaProfesional::create($familiaProfesional);
-
-        return new FamiliaProfesionalResource($familiaProfesional);
+        //
     }
 
     /**
@@ -37,18 +32,14 @@ class FamiliaProfesionalController extends Controller
      */
     public function show(FamiliaProfesional $familiaProfesional)
     {
-        return new FamiliaProfesionalResource($familiaProfesional);
     }
 
     /**
      * Update the specified resource in storage.
      */
-     public function update(Request $request, FamiliaProfesional $familiaProfesional)
+    public function update(Request $request, FamiliaProfesional $familiaProfesional)
     {
-        $familiaProfesionalData = json_decode($request->getContent(), true);
-        $familiaProfesional->update($familiaProfesionalData);
-
-        return new FamiliaProfesionalResource($familiaProfesional);
+        //
     }
 
     /**
@@ -56,13 +47,6 @@ class FamiliaProfesionalController extends Controller
      */
     public function destroy(FamiliaProfesional $familiaProfesional)
     {
-        try {
-            $familiaProfesional->delete();
-            return response()->json(null, 204);
-        } catch (\Exception $e) {
-            return response()->json([
-                'message' => 'Error: ' . $e->getMessage()
-            ], 400);
-        }
+        //
     }
 }
