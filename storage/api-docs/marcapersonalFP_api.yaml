@@ -217,14 +217,22 @@ paths:
             type: string
         - name: page
           in: query
+<<<<<<< HEAD
           description: número de página a mostrar
+=======
+          description: nÃºmero de pÃ¡gina a mostrar
+>>>>>>> f031882 (Añadiendo el controlador de recursos ciclos)
           required: false
           schema:
             type: integer
             format: int32
         - name: per_page
           in: query
+<<<<<<< HEAD
           description: número de registros por página
+=======
+          description: nÃºmero de registros por pÃ¡gina
+>>>>>>> f031882 (Añadiendo el controlador de recursos ciclos)
           required: false
           schema:
             type: integer
@@ -385,14 +393,22 @@ paths:
             type: string
         - name: page
           in: query
+<<<<<<< HEAD
           description: número de página a mostrar
+=======
+          description: nÃºmero de pÃ¡gina a mostrar
+>>>>>>> f031882 (Añadiendo el controlador de recursos ciclos)
           required: false
           schema:
             type: integer
             format: int32
         - name: per_page
           in: query
+<<<<<<< HEAD
           description: número de registros por página
+=======
+          description: nÃºmero de registros por pÃ¡gina
+>>>>>>> f031882 (Añadiendo el controlador de recursos ciclos)
           required: false
           schema:
             type: integer
@@ -553,14 +569,22 @@ paths:
             type: string
         - name: page
           in: query
+<<<<<<< HEAD
           description: número de página a mostrar
+=======
+          description: nÃºmero de pÃ¡gina a mostrar
+>>>>>>> f031882 (Añadiendo el controlador de recursos ciclos)
           required: false
           schema:
             type: integer
             format: int32
         - name: per_page
           in: query
+<<<<<<< HEAD
           description: número de registros por página
+=======
+          description: nÃºmero de registros por pÃ¡gina
+>>>>>>> f031882 (Añadiendo el controlador de recursos ciclos)
           required: false
           schema:
             type: integer
@@ -721,14 +745,22 @@ paths:
             type: string
         - name: page
           in: query
+<<<<<<< HEAD
           description: número de página a mostrar
+=======
+          description: nÃºmero de pÃ¡gina a mostrar
+>>>>>>> f031882 (Añadiendo el controlador de recursos ciclos)
           required: false
           schema:
             type: integer
             format: int32
         - name: per_page
           in: query
+<<<<<<< HEAD
           description: número de registros por página
+=======
+          description: nÃºmero de registros por pÃ¡gina
+>>>>>>> f031882 (Añadiendo el controlador de recursos ciclos)
           required: false
           schema:
             type: integer
@@ -963,14 +995,22 @@ paths:
             type: string
         - name: page
           in: query
+<<<<<<< HEAD
           description: número de página a mostrar
+=======
+          description: nÃºmero de pÃ¡gina a mostrar
+>>>>>>> f031882 (Añadiendo el controlador de recursos ciclos)
           required: false
           schema:
             type: integer
             format: int32
         - name: per_page
           in: query
+<<<<<<< HEAD
           description: número de registros por página
+=======
+          description: nÃºmero de registros por pÃ¡gina
+>>>>>>> f031882 (Añadiendo el controlador de recursos ciclos)
           required: false
           schema:
             type: integer
@@ -1153,14 +1193,22 @@ paths:
             type: string
         - name: page
           in: query
+<<<<<<< HEAD
           description: número de página a mostrar
+=======
+          description: nÃºmero de pÃ¡gina a mostrar
+>>>>>>> f031882 (Añadiendo el controlador de recursos ciclos)
           required: false
           schema:
             type: integer
             format: int32
         - name: per_page
           in: query
+<<<<<<< HEAD
           description: número de registros por página
+=======
+          description: nÃºmero de registros por pÃ¡gina
+>>>>>>> f031882 (Añadiendo el controlador de recursos ciclos)
           required: false
           schema:
             type: integer
@@ -1321,14 +1369,22 @@ paths:
             type: string
         - name: page
           in: query
+<<<<<<< HEAD
           description: número de página a mostrar
+=======
+          description: nÃºmero de pÃ¡gina a mostrar
+>>>>>>> f031882 (Añadiendo el controlador de recursos ciclos)
           required: false
           schema:
             type: integer
             format: int32
         - name: per_page
           in: query
+<<<<<<< HEAD
           description: número de registros por página
+=======
+          description: nÃºmero de registros por pÃ¡gina
+>>>>>>> f031882 (Añadiendo el controlador de recursos ciclos)
           required: false
           schema:
             type: integer
@@ -1489,14 +1545,22 @@ paths:
             type: string
         - name: page
           in: query
+<<<<<<< HEAD
           description: número de página a mostrar
+=======
+          description: nÃºmero de pÃ¡gina a mostrar
+>>>>>>> f031882 (Añadiendo el controlador de recursos ciclos)
           required: false
           schema:
             type: integer
             format: int32
         - name: per_page
           in: query
+<<<<<<< HEAD
           description: número de registros por página
+=======
+          description: nÃºmero de registros por pÃ¡gina
+>>>>>>> f031882 (Añadiendo el controlador de recursos ciclos)
           required: false
           schema:
             type: integer
@@ -1689,14 +1753,22 @@ paths:
             type: string
         - name: page
           in: query
+<<<<<<< HEAD
           description: número de página a mostrar
+=======
+          description: nÃºmero de pÃ¡gina a mostrar
+>>>>>>> f031882 (Añadiendo el controlador de recursos ciclos)
           required: false
           schema:
             type: integer
             format: int32
         - name: per_page
           in: query
+<<<<<<< HEAD
           description: número de registros por página
+=======
+          description: nÃºmero de registros por pÃ¡gina
+>>>>>>> f031882 (Añadiendo el controlador de recursos ciclos)
           required: false
           schema:
             type: integer
@@ -1885,14 +1957,22 @@ paths:
             format: int32
         - name: page
           in: query
+<<<<<<< HEAD
           description: número de página a mostrar
+=======
+          description: nÃºmero de pÃ¡gina a mostrar
+>>>>>>> f031882 (Añadiendo el controlador de recursos ciclos)
           required: false
           schema:
             type: integer
             format: int32
         - name: per_page
           in: query
+<<<<<<< HEAD
           description: número de registros por página
+=======
+          description: nÃºmero de registros por pÃ¡gina
+>>>>>>> f031882 (Añadiendo el controlador de recursos ciclos)
           required: false
           schema:
             type: integer
@@ -1948,14 +2028,22 @@ paths:
             format: int32
         - name: page
           in: query
+<<<<<<< HEAD
           description: número de página a mostrar
+=======
+          description: nÃºmero de pÃ¡gina a mostrar
+>>>>>>> f031882 (Añadiendo el controlador de recursos ciclos)
           required: false
           schema:
             type: integer
             format: int32
         - name: per_page
           in: query
+<<<<<<< HEAD
           description: número de registros por página
+=======
+          description: nÃºmero de registros por pÃ¡gina
+>>>>>>> f031882 (Añadiendo el controlador de recursos ciclos)
           required: false
           schema:
             type: integer
@@ -2010,14 +2098,22 @@ paths:
             type: string
         - name: page
           in: query
+<<<<<<< HEAD
           description: número de página a mostrar
+=======
+          description: nÃºmero de pÃ¡gina a mostrar
+>>>>>>> f031882 (Añadiendo el controlador de recursos ciclos)
           required: false
           schema:
             type: integer
             format: int32
         - name: per_page
           in: query
+<<<<<<< HEAD
           description: número de registros por página
+=======
+          description: nÃºmero de registros por pÃ¡gina
+>>>>>>> f031882 (Añadiendo el controlador de recursos ciclos)
           required: false
           schema:
             type: integer
