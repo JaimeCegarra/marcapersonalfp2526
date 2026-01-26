@@ -12,6 +12,8 @@ Route::middleware(['auth:sanctum'])->get('/user', function (Request $request) {
     return $request->user();
 });
 
+// Rutas /api/v1
+
 Route::prefix('v1')->group(function () {
     Route::apiResource('ciclos', CicloController::class);
 
@@ -19,8 +21,12 @@ Route::prefix('v1')->group(function () {
     ->parameters([
         'familias_profesionales' => 'familiaProfesional'
     ]);
+
 });
 
+
+
+// Rutas PHP-CRUD-API
 Route::any('/{any}', function (ServerRequestInterface $request) {
     $config = new Config([
         'address' => env('DB_HOST', '127.0.0.1'),
