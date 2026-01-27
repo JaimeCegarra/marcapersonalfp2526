@@ -6,6 +6,6 @@ use Illuminate\Http\Request;
 
 class IdiomaController extends Controller
 {
-    //
+    
     }
 

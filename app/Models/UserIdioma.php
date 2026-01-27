@@ -8,6 +8,10 @@ use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 class UserIdioma extends Model
 {
 
-    //
+     protected $fillable = [
+        'id',
+        'user_id',
+        'idioma_id',
+    ];
 
 }
