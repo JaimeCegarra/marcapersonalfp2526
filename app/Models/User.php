@@ -47,8 +47,8 @@ class User extends Authenticatable
         ];
     }
 
-   public function curriculo()
-   {
-       return $this->hasOne(Curriculo::class);
-   }
+    public function curriculo()
+    {
+        return $this->hasOne(Curriculo::class);
+    }
 }
