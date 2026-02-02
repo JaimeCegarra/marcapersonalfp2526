@@ -46,11 +46,7 @@ class CicloController extends Controller
     /**
      * Update the specified resource in storage.
      */
-<<<<<<< HEAD
-     public function update(Request $request, Ciclo $ciclo)
-=======
     public function update(Request $request, Ciclo $ciclo)
->>>>>>> ramaTokens2
     {
         $cicloData = json_decode($request->getContent(), true);
         $ciclo->update($cicloData);
