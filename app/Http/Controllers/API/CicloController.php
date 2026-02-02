@@ -5,7 +5,6 @@ namespace App\Http\Controllers\API;
 use App\Http\Controllers\Controller;
 use App\Http\Resources\CicloResource;
 use App\Models\Ciclo;
-use App\Models\FamiliaProfesional;
 use Illuminate\Http\Request;
 
 class CicloController extends Controller
@@ -16,15 +15,12 @@ class CicloController extends Controller
     public function index(Request $request)
     {
         $query = Ciclo::query();
-
-        if ($query) {
-            $query->where('nombre', 'like', '%' . $request->q . '%');
+        if($query) {
+            $query->orWhere('nombre', 'like', '%' .$request->q . '%');
         }
-
         return CicloResource::collection(
             $query->orderBy($request->sort ?? 'id', $request->order ?? 'asc')
-                ->paginate($request->per_page)
-        );
+            ->paginate($request->per_page));
     }
 
     /**
@@ -50,7 +46,11 @@ class CicloController extends Controller
     /**
      * Update the specified resource in storage.
      */
+<<<<<<< HEAD
      public function update(Request $request, Ciclo $ciclo)
+=======
+    public function update(Request $request, Ciclo $ciclo)
+>>>>>>> ramaTokens2
     {
         $cicloData = json_decode($request->getContent(), true);
         $ciclo->update($cicloData);
